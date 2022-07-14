@@ -12,8 +12,11 @@ microservice:
     endpoints:
       endpoint:
         uri: "http://product-service/api/product/get/"
-
   category-service:
     endpoints:
       endpoint:
         uri: "http://product-service/api/category/get/"
+  user-service:
+    endpoints:
+      endpoint:
+        uri: "http://user-service/api/user/get/"
