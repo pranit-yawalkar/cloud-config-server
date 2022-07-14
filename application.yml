@@ -10,8 +10,10 @@ eureka:
 microservice:
   product-service:
     endpoints:
-      endpoint: "http://product-service/api/product/get/"
+      endpoint:
+        uri: "http://product-service/api/product/get/"
 
   category-service:
     endpoints:
-      endpoint: "http://product-service/api/category/get/"
+      endpoint:
+        uri: "http://product-service/api/category/get/"
